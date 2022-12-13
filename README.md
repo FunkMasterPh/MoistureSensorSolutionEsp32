@@ -18,4 +18,7 @@ If you decide to use a certificate then (if possible) don´t store it in the code
 
 If you want to tweak the telemetry message then check the "getTelemetryPayload" and "sendTelemetry" functions. In "getTelemetryPayload" you can change how the body of the telemetry message will look like and in "sendTelemetry" you can add even more properties to your message. The ones I have added (Encoding: UTF8, Type: application/json) are for readability when the message is stored in Cosmos DB.
 
-Now you should be posting regular telemetry messages to your IoT Hub.
+To actually route the messages to your instance of Cosmos DB just add a new route with your database as an endpoint in your IoT Hub. 
+Microsoft documentation can be found [here.](https://learn.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-messages-d2c)
+
+Now you should be posting regular telemetry messages to your IoT Hub and routing them to your database.
