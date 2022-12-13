@@ -7,7 +7,7 @@ To make this a bit easier I am using the [Azure IoT SDK for C Arduino](https://g
 
 You also need a [capacitive soil moisture sensor](https://www.amazon.com/Gikfun-Capacitive-Corrosion-Resistant-Detection/dp/B07H3P1NRM) to actually take the readings.
 
-![](ESP32ToIoTHub.png "ESP32-Sensor-IoTHub-Arcitecture")
+![](images/ESP32ToIoTHub.png "ESP32-Sensor-IoTHub-Arcitecture")
 
 ## Get Started
 To get started just hook up the sensor to the ESP32 using Analog 0 as your reading pin on the ESP32. 
